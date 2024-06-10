@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Things I am adding
+*.zip
+*/*
+# also, I am adding * in front of the .env extension listed below, to ignore all the .env files
+
 # C extensions
 *.so
 
@@ -122,7 +127,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+*.env
 .venv
 env/
 venv/
